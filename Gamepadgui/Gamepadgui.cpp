@@ -124,7 +124,7 @@ private:
         }
     }
 
-    // Управление вибрацией
+    // Управление вибрацие
     void Vibrate(int leftMotor, int rightMotor) {
         XINPUT_VIBRATION vibration;
         ZeroMemory(&vibration, sizeof(XINPUT_VIBRATION));
